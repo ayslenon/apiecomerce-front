@@ -1,15 +1,9 @@
 import { createContext, useEffect, useState } from "react";
 
 import { toast } from "react-toastify";
-export interface userCadastroType {
-	email: string;
-	password: string;
-	username?: string;
-}
-
 export interface userLoginType {
 	email: string;
-	Authorization: string;
+	token: string;
 }
 
 export interface userType {
@@ -31,7 +25,7 @@ export interface authContextType {
 
 const initialState: authStateType = {
 	loggedUser: {
-		login: { email: "", Authorization: "" },
+		login: { email: "", token: "" },
 		username: "",
 	},
 };

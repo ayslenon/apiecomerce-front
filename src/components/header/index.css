@@ -1,0 +1,22 @@
+.div-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div img {
+  height: 15rem;
+}
+
+.div-login {
+  margin-right: 30px; 
+
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+  font-size: 20px;
+}
